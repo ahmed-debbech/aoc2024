@@ -13,15 +13,15 @@ func getMul(lines []string) []string{
 	for _, val := range lines {
 		for i:=0; i<=len(val)-4; i++{
 			if val[i:i+4] == "mul(" {
-				//fmt.Println(val[i:i+12])
 				if i+12 > len(val)-1 {
-					st = append(st, val[i:len(val)-1])
+					st = append(st, val[i:len(val)])
+					fmt.Println(val[i:len(val)])
 				}else{
 					st = append(st, val[i:i+12])
+					fmt.Println(val[i:i+12])
 				}
 			}
 		}
-		//fmt.Println(st)
 	}
 	return st
 }
@@ -38,7 +38,7 @@ func verifyMuls(uncheckedMuls []string) []string{
 	//trim
 	for i:=0; i<=len(st)-1; i++ {
 		st[i] = st[i][:strings.Index(st[i], ")")+1]
-		fmt.Println(st[i])
+		//fmt.Println(st[i])
 
 	}
 	return st
@@ -51,7 +51,6 @@ func countMuls(muls []string) int64{
 		var left int64
 		var right int64
 		fmt.Sscanf(vl, "mul(%d,%d)", &left, &right)
-		fmt.Println("ll : ", left)
 		count += (left * right)
 	}
 	return count
