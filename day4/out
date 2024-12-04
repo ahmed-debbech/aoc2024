@@ -1,0 +1,1002 @@
+Hello
+-----------[ 3 , 3 ]
+M...
+M...
+MMMS
+MSXM
+MMAM
+M...
+M...
+M...
+=============
+-----------[ 3 , 4 ]
+M...
+M...
+MMSX
+MASA
+MSMS
+MM..
+MM..
+M...
+=============
+-----------[ 3 , 5 ]
+M...
+M...
+MSXX
+MMXS
+MAXA
+MSA.
+MMM.
+M...
+=============
+-----------[ 3 , 6 ]
+S...
+S...
+SXXM
+SXMM
+SMSM
+SAMM
+SMMM
+S...
+=============
+-----------[ 3 , 7 ]
+X...
+X...
+XXMA
+XMAS
+XXXA
+XMXS
+XSMM
+X...
+=============
+-----------[ 3 , 8 ]
+X...
+X...
+XMAS
+XSAM
+XMMS
+XXSA
+XXSM
+X...
+=============
+-----------[ 3 , 9 ]
+M...
+M...
+MASM
+MMMX
+MSAM
+MMXM
+MXXS
+M...
+=============
+-----------[ 3 , 10 ]
+A...
+A...
+ASM.
+ASM.
+AMAS
+ASMA
+AMXX
+A...
+=============
+-----------[ 3 , 11 ]
+S...
+S...
+SM..
+SA..
+SSMM
+SMAS
+SAMX
+S...
+=============
+-----------[ 3 , 12 ]
+M...
+M...
+M...
+M...
+MAMX
+MSAM
+MSAM
+M...
+=============
+-----------[ 4 , 3 ]
+MM..
+MM..
+MSAM
+MMAS
+MAMX
+M...
+M...
+M...
+=============
+-----------[ 4 , 4 ]
+SM..
+SM..
+SAMX
+SXMA
+SMSM
+SA..
+SM..
+SM..
+=============
+-----------[ 4 , 5 ]
+AM..
+AS..
+AMXM
+ASAM
+AXAA
+AMM.
+ASM.
+AM..
+=============
+-----------[ 4 , 6 ]
+MS..
+MX..
+MXMS
+MXSX
+MSMS
+MXSX
+MASM
+MM..
+=============
+-----------[ 4 , 7 ]
+XX..
+XX..
+XMSM
+XMMA
+XXAA
+XSAM
+XMAS
+XS..
+=============
+-----------[ 4 , 8 ]
+MX..
+MM..
+MSMS
+MASM
+MMSM
+MXMA
+MXMA
+MX..
+=============
+-----------[ 4 , 9 ]
+SM..
+SA..
+SMSA
+SAMM
+SAMX
+SMAS
+SMXM
+SX..
+=============
+-----------[ 4 , 10 ]
+MA..
+MS..
+MSA.
+MMX.
+MASA
+MASA
+MSMX
+MM..
+=============
+-----------[ 4 , 11 ]
+SS..
+SM..
+SA..
+SM..
+SMMM
+SAMM
+SMSM
+SA..
+=============
+-----------[ 4 , 12 ]
+AM..
+A...
+A...
+A...
+AMXM
+AMSX
+ASMS
+AS..
+=============
+-----------[ 5 , 3 ]
+AMM.
+ASM.
+AMXS
+ASAM
+AMXX
+A...
+A...
+A...
+=============
+-----------[ 5 , 4 ]
+MSM.
+MAS.
+MXSX
+MASM
+MSMX
+MM..
+MA..
+MM..
+=============
+-----------[ 5 , 5 ]
+XAM.
+XMX.
+XSXM
+XMAX
+XAAA
+XSX.
+XMA.
+XSM.
+=============
+-----------[ 5 , 6 ]
+SMS.
+SXX.
+SXMA
+SAMX
+SMSM
+SAMX
+SXMA
+SAM.
+=============
+-----------[ 5 , 7 ]
+XXX.
+XMM.
+XMAA
+XSXA
+XAAM
+XMAX
+XSXM
+XMM.
+=============
+-----------[ 5 , 8 ]
+MMX.
+MSA.
+MAAM
+MMAM
+MSMX
+MASA
+MXSX
+MXS.
+=============
+-----------[ 5 , 9 ]
+ASM.
+AMS.
+AAMM
+ASMA
+AMXX
+ASAM
+AMXS
+AMX.
+=============
+-----------[ 5 , 10 ]
+AMA.
+ASM.
+AMM.
+AMM.
+ASAA
+AMMM
+AAMX
+ASX.
+=============
+-----------[ 5 , 11 ]
+MSS.
+MA..
+MM..
+MX..
+MMMM
+MSXX
+MAAM
+MMM.
+=============
+-----------[ 5 , 12 ]
+MAM.
+M...
+M...
+M...
+MXMA
+MMAX
+MMAA
+MSA.
+=============
+-----------[ 6 , 3 ]
+MAMM
+MMAS
+MSAM
+MMAM
+MXXS
+M...
+M...
+M...
+=============
+-----------[ 6 , 4 ]
+SMSM
+SXMX
+SAMA
+SAMS
+SMXM
+SX..
+SM..
+SA..
+=============
+-----------[ 6 , 5 ]
+AXAM
+ASXX
+AMAS
+ASMA
+AAAS
+AMX.
+ASM.
+AMM.
+=============
+-----------[ 6 , 6 ]
+MSMS
+MXMM
+MASM
+MAXS
+MSMM
+MAXS
+MASM
+MXSM
+=============
+-----------[ 6 , 7 ]
+AXXX
+AMSA
+ASMS
+AMXX
+AAMS
+ASAM
+AMAS
+ASAM
+=============
+-----------[ 6 , 8 ]
+SMMX
+SAMS
+SMSM
+SXAS
+SMXA
+SAMS
+SAMA
+SXMM
+=============
+-----------[ 6 , 9 ]
+MASM
+MASM
+MSMX
+MAMS
+MXXS
+MMMM
+MSAM
+MMXS
+=============
+-----------[ 6 , 10 ]
+SAMA
+SMA.
+SMX.
+SMA.
+SAAX
+SXXS
+SMSA
+SAMX
+=============
+-----------[ 6 , 11 ]
+MMSS
+MM..
+MX..
+MM..
+MMMS
+MAXA
+MSMS
+MASX
+=============
+-----------[ 6 , 12 ]
+XMAM
+X...
+X...
+X...
+XMAS
+XMAS
+XMSM
+XMMM
+=============
+-----------[ 7 , 3 ]
+XMAM
+XSXM
+XMAS
+XXSA
+XXSS
+X...
+X...
+X...
+=============
+-----------[ 7 , 4 ]
+MSMS
+MASX
+MASA
+MAMM
+MXMA
+MX..
+MX..
+MM..
+=============
+-----------[ 7 , 5 ]
+AAXA
+AMXM
+ASAM
+AMSA
+AASX
+AXS.
+AMX.
+ASA.
+=============
+-----------[ 7 , 6 ]
+SMSM
+SAMS
+SAMX
+SMAS
+SMMA
+SAMS
+SAMX
+SAMM
+=============
+-----------[ 7 , 7 ]
+AAXX
+ASAM
+AMXA
+AXSA
+AMSM
+AMSA
+ASAM
+AMXS
+=============
+-----------[ 7 , 8 ]
+MSMM
+MMAS
+MXAM
+MXXA
+MXAA
+MMMX
+MASA
+MASA
+=============
+-----------[ 7 , 9 ]
+XMAS
+XSMA
+XAMM
+XASA
+XXSS
+XXSA
+XMAS
+XSXM
+=============
+-----------[ 7 , 10 ]
+ASAM
+AMM.
+AMM.
+AMS.
+AAXA
+AXAM
+AXMA
+AMMX
+=============
+-----------[ 7 , 11 ]
+MMMS
+MX..
+MM..
+MA..
+MMSA
+MASA
+MAXM
+MSAM
+=============
+-----------[ 7 , 12 ]
+MXMA
+M...
+M...
+M...
+MASA
+MMXS
+MMAX
+MMAS
+=============
+-----------[ 8 , 3 ]
+XXMA
+XMAS
+XXAM
+XMXM
+XSSM
+X...
+X...
+X...
+=============
+-----------[ 8 , 4 ]
+XMSM
+XAMX
+XAMM
+XSAM
+XMAA
+XS..
+XX..
+XX..
+=============
+-----------[ 8 , 5 ]
+AAAX
+ASAM
+AMMX
+AMMX
+ASXM
+AMS.
+AXX.
+AMM.
+=============
+-----------[ 8 , 6 ]
+MSMS
+MASA
+MMXX
+MSAM
+MMAM
+MSAM
+MAXX
+MASA
+=============
+-----------[ 8 , 7 ]
+MAAX
+MMMA
+MXXA
+MASM
+MSMM
+MMXA
+MMAX
+MSAM
+=============
+-----------[ 8 , 8 ]
+XMSM
+XXSM
+XXAM
+XSAM
+XAAX
+XSAM
+XMMA
+XAMX
+=============
+-----------[ 8 , 9 ]
+XXMA
+XAMM
+XAMA
+XXAM
+XSSM
+XAMM
+XXMM
+XMAS
+=============
+-----------[ 8 , 10 ]
+AASA
+AMX.
+AMA.
+ASA.
+AXAM
+ASAM
+AXXM
+AXSX
+=============
+-----------[ 8 , 11 ]
+MMMM
+MM..
+MA..
+MS..
+MSAM
+MXSX
+MAXX
+MAMM
+=============
+-----------[ 8 , 12 ]
+AMXM
+A...
+A...
+A...
+ASAM
+ASAM
+AMAX
+AMSA
+=============
+-----------[ 9 , 3 ]
+SXXM
+SXAM
+SMSM
+SAMX
+SSMM
+S...
+S...
+S...
+=============
+-----------[ 9 , 4 ]
+MXMS
+MASA
+MSMS
+MXMA
+MAAX
+MS..
+MS..
+MX..
+=============
+-----------[ 9 , 5 ]
+SAAA
+SMAS
+SMSA
+SAMX
+SXMM
+SAM.
+SMS.
+SXX.
+=============
+-----------[ 9 , 6 ]
+MMSM
+MMMM
+MSAS
+MMXM
+MAMX
+MXAM
+MSMS
+MAMM
+=============
+-----------[ 9 , 7 ]
+SMAA
+SXXS
+SASX
+SAMA
+SMMA
+SAMX
+SMSM
+SMAS
+=============
+-----------[ 9 , 8 ]
+AXMS
+AXAM
+ASXS
+ASMS
+AAXX
+AMMM
+ASMS
+AMSA
+=============
+-----------[ 9 , 9 ]
+SXXM
+SAMX
+SXSS
+SAMX
+SSMM
+SAMX
+SASM
+SXAM
+=============
+-----------[ 9 , 10 ]
+XAAS
+XMM.
+XSS.
+XAM.
+XAMA
+XSXA
+XSAS
+XXMA
+=============
+-----------[ 9 , 11 ]
+SMMM
+SA..
+SS..
+SA..
+SAMS
+SAMX
+SXSA
+SAXS
+=============
+-----------[ 9 , 12 ]
+SAMX
+S...
+S...
+S...
+SAMX
+SAMM
+SSXS
+SMAM
+=============
+-----------[ 10 , 3 ]
+SSXX
+SMAS
+SAXA
+SAM.
+SMM.
+S...
+S...
+S...
+=============
+-----------[ 10 , 4 ]
+AMXM
+ASMA
+AXAM
+AMX.
+AAX.
+AM..
+AS..
+AS..
+=============
+-----------[ 10 , 5 ]
+XSAA
+XMMM
+XAMA
+XMA.
+XMM.
+XAM.
+XAS.
+XMX.
+=============
+-----------[ 10 , 6 ]
+AMMS
+ASXX
+AMAS
+AMX.
+AMX.
+AMX.
+AXAS
+ASXX
+=============
+-----------[ 10 , 7 ]
+MSMA
+MAXA
+MASA
+MXM.
+MMA.
+MMM.
+MAXA
+MMAM
+=============
+-----------[ 10 , 8 ]
+AAXM
+ASAM
+ASAA
+AMA.
+AXX.
+AMX.
+AMAX
+ASMA
+=============
+-----------[ 10 , 9 ]
+SSXX
+SXMM
+SAAA
+SMS.
+SMM.
+SXA.
+SAMA
+SAMS
+=============
+-----------[ 10 , 10 ]
+AXAA
+ASA.
+AAA.
+AMX.
+AMA.
+AMX.
+ASAM
+ASXA
+=============
+-----------[ 10 , 11 ]
+ASMM
+AS..
+AA..
+AM..
+AMS.
+AMM.
+AASA
+AXXM
+=============
+-----------[ 10 , 12 ]
+ASAM
+A...
+A...
+A...
+AMX.
+AMA.
+AAAS
+ASAX
+=============
+-----------[ 11 , 3 ]
+MSSX
+MASM
+MAMM
+MX..
+MM..
+M...
+M...
+M...
+=============
+-----------[ 11 , 4 ]
+AAMX
+AXMM
+AMMM
+AM..
+AX..
+AM..
+AM..
+AS..
+=============
+-----------[ 11 , 5 ]
+MXSA
+MASX
+MMMX
+MX..
+MM..
+MX..
+MAM.
+MAS.
+=============
+-----------[ 11 , 6 ]
+MAMM
+MMAX
+MMXM
+MA..
+MX..
+MM..
+MMAM
+MXMX
+=============
+-----------[ 11 , 7 ]
+MMSM
+MASA
+MXMM
+MX..
+MA..
+MX..
+MMMA
+MASX
+=============
+-----------[ 11 , 8 ]
+XAAX
+XSXM
+XMMM
+XM..
+XX..
+XA..
+XMMM
+XMMA
+=============
+-----------[ 11 , 9 ]
+MSSX
+MASA
+MMMM
+MA..
+MM..
+MX..
+MXMM
+MASM
+=============
+-----------[ 11 , 10 ]
+MAXA
+MAS.
+MMM.
+MS..
+MA..
+MM..
+MMXM
+MSAM
+=============
+-----------[ 11 , 11 ]
+MASM
+MA..
+MM..
+MX..
+MS..
+MA..
+MMMX
+MASX
+=============
+-----------[ 11 , 12 ]
+MASA
+M...
+M...
+M...
+MX..
+MS..
+MMMM
+MAXX
+=============
+-----------[ 12 , 3 ]
+MMSS
+MAXM
+MXMX
+M...
+M...
+M...
+M...
+M...
+=============
+-----------[ 12 , 4 ]
+XAAM
+XMAS
+XMXA
+X...
+X...
+X...
+XM..
+XM..
+=============
+-----------[ 12 , 5 ]
+MMXS
+MMMA
+MXAX
+M...
+M...
+M...
+MXM.
+MAS.
+=============
+-----------[ 12 , 6 ]
+XMAM
+XMAS
+XAXM
+X...
+X...
+X...
+XMXM
+XMAS
+=============
+-----------[ 12 , 7 ]
+AMMS
+AXSX
+AXMA
+A...
+A...
+A...
+AXMX
+AMXM
+=============
+-----------[ 12 , 8 ]
+XXAA
+XMAS
+XMAS
+X...
+X...
+X...
+XAXM
+XMAS
+=============
+-----------[ 12 , 9 ]
+MMSS
+MMAS
+MASX
+M...
+M...
+M...
+MXAX
+MXMM
+=============
+-----------[ 12 , 10 ]
+AMAX
+AMA.
+ASX.
+A...
+A...
+A...
+AMXA
+AMAS
+=============
+-----------[ 12 , 11 ]
+SMAS
+SM..
+SX..
+S...
+S...
+S...
+SAMX
+SMSA
+=============
+-----------[ 12 , 12 ]
+XMAS
+X...
+X...
+X...
+X...
+X...
+XSAM
+XMAS
+=============
+COUNT OF XMAS IS: 18
