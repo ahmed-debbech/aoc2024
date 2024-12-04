@@ -20,90 +20,27 @@ func main(){
 
 
 func dump(canvas [][]byte, i int, j int) int{
+	manyM := 0
+	manyS := 0
+	if canvas[i][j] == 'A' {
+		if canvas[i-1][j-1] != 'S' && canvas[i-1][j-1] != 'M' {return 0}
+		if canvas[i-1][j-1] == 'M' {manyM++}else{manyS++}
 
-	count := 0;
-	//up
-	ch := make([]byte, 4)
-	ind := 0
-	for l:=i; l>=i-3; l-- {
-		ch[ind] = canvas[l][j]
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//up-right
-	ch = make([]byte, 4)
-	ind = 0
-	k := j
-	for l:=i; l>=i-3; l-- {
-		ch[ind] = canvas[l][k]
-		ind++
-		k++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//right
-	ch = make([]byte, 4)
-	ind = 0
-	for k:=j; k<=j+3; k++ {
-		ch[ind] = canvas[i][k]
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//down-right
-	ch = make([]byte, 4)
-	ind = 0
-	k = j
-	for l:=i; l<=i+3; l++ {
-		ch[ind] = canvas[l][k]
-		k++s
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//down
-	ch = make([]byte, 4)
-	ind = 0
-	for l:=i; l<=i+3; l++ {
-		ch[ind] = canvas[l][j]
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//down-left
-	ch = make([]byte, 4)
-	ind = 0
-	k = j
-	for l:=i; l<=i+3; l++ {
-		ch[ind] = canvas[l][k]
-		k--
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//left
-	ch = make([]byte, 4)
-	ind = 0
-	for k:=j; k>=j-3; k-- {
-		ch[ind] = canvas[i][k]
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
-	//left-up
-	ch = make([]byte, 4)
-	ind = 0
-	l := i
-	for k:=j; k>=j-3; k-- {
-		ch[ind] = canvas[l][k]
-		l--
-		ind++
-	} 
-	fmt.Println(string(ch))
-	if string(ch) == "XMAS" {count++}
+		if canvas[i-1][j+1] != 'S' && canvas[i-1][j+1] != 'M' {return 0}
+		if canvas[i-1][j+1] == 'M' {manyM++}else{manyS++}
 
-	return count
+		if canvas[i+1][j+1] != 'S' && canvas[i+1][j+1] != 'M' {return 0}
+		if canvas[i+1][j+1] == 'M' {manyM++}else{manyS++}
+
+		if canvas[i+1][j-1] != 'S' && canvas[i+1][j-1] != 'M' {return 0}
+		if canvas[i+1][j-1] == 'M' {manyM++}else{manyS++}
+
+		if (manyM != 2) || (manyS != 2) {return 0}
+		fmt.Println("i: ", i, " , j:",j )
+		return 1
+	}
+
+	return 0
 }
 
 func searchXmas(canvas [][]byte) int{
@@ -142,7 +79,11 @@ func createCanvasAround(lines []string) [][]byte{
 		by[0]='.';by[1]='.';by[2]='.';
 		k := 3;
 		for j:=0; j<=len(str)-1; j++ {
-			by[k] = str[j]
+			if str[j] == 'X' {
+				by[k] = '.'
+			}else{
+				by[k] = str[j]
+			}
 			k++
 		}
 		by[len(str)+3]='.';by[len(str)+4]='.';by[len(str)+5]='.';
