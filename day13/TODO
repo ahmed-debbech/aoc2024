@@ -1,0 +1,4 @@
+* parse to each machine
+* loop on every machine and sum up tokens 
+* every machine should count the least tokens from an arr
+* sum all the leasts
