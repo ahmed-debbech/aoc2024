@@ -7,6 +7,7 @@ import (
 	"strings"
 	"strconv"
 	"math"
+	"sync"
 )
 
 
@@ -15,14 +16,28 @@ var (
 )
 
 func main(){
+
+	var wg sync.WaitGroup
+	wg.Add(3)
+
+	thea := 101000000
+	go work(thea, &wg)
+	thea = 500000000
+	go work(thea, &wg)
+	thea = 1000000000
+	go work(thea, &wg)
+
+	wg.Wait()
+
+}
+
+func work(thea int,  wg *sync.WaitGroup) {
+	defer wg.Done()
+
 	lines := readFile()
-	//fmt.Println(lines)
 	a,b,c, ops := makeItReal(lines)
-	//fmt.Println(a,b,c,ops)
 
 	cpu := Cpu{}
-	
-	thea := 0
 
 	for  {
 		a = thea
@@ -38,7 +53,9 @@ func main(){
 		if exact(cpu.Log, intSliceToStringSlice(ops)) {break}
 		thea++
 	}
+
 	fmt.Println("RESULT IS", thea)
+
 }
 
 func intSliceToStringSlice(intSlice []int) []string {
