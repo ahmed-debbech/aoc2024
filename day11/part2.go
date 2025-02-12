@@ -8,6 +8,9 @@ import (
 	"time"
 )
 
+var (
+	memo map[string]int = make(map[string]int)
+)
 func main(){
 	fmt.Println("Hello world")
 
@@ -22,13 +25,13 @@ func main(){
 
 	//for i:=1; i<=75; i++{
 		stones_str = []string{"0"}
-		stones_str = blink(stones_str, 1);
+		resu := blink(stones_str, 1);
 		fmt.Println("it", 1, stones_str)
 		//fmt.Println("len", len(stones_str))
 		stones_int = toInt(stones_str)
 		stones_str = toString(stones_int)
 	//}
-	fmt.Println("FINAL NUMBER STONES:", len(stones_str))
+	fmt.Println("FINAL NUMBER STONES:", resu)
 }
 
 /*func blnk(str *[]string ,stones_str *[]string, i int){
@@ -51,29 +54,38 @@ func main(){
 
 }*/
 
-func blink(stones_str []string, kk int) []string { 
+func blink(stones_str []string, kk int) int { 
 
-	if kk > 75 {return stones_str}
+	if kk > 25 {return 0}
 
 	str := make([]string, 0)
 
+	nump := 0
 	for _, l := range stones_str{
-		if l == "0"{
-			str = append(str, "1")
-		}else{
-			if len(l) % 2 == 0{
-				str = append(str, l[:(len(l)/2)])
-				str = append(str, l[(len(l)/2):])
+		_, ok := memo[l];
+		if  !ok  {
+			if l == "0"{
+				str = append(str, "1")
 			}else{
-				ii, _ := strconv.Atoi(l)
-				ii = ii * 2024
-				str = append(str, strconv.Itoa(ii))
+				if len(l) % 2 == 0{
+					str = append(str, l[:(len(l)/2)])
+					str = append(str, l[(len(l)/2):])
+				}else{
+					ii, _ := strconv.Atoi(l)
+					ii = ii * 2024
+					str = append(str, strconv.Itoa(ii))
+				}
 			}
+			memo[l] = len(str)
+			nump += len(str)
+		}else{
+			nump += memo[l]
+			fmt.Println("notfound", l)
 		}
 	}
-	fmt.Println("it", kk , stones_str)
-	time.Sleep(time.Second * 2)
-	return blink(str, kk+1)
+	fmt.Println("it", kk , "nump", nump)
+	time.Sleep(time.Millisecond * 0)
+	return nump + blink(str, kk+1)
 }
 
 //func to string

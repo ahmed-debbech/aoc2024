@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	_"strings"
 	_"unicode/utf8"
 )
 
@@ -36,12 +37,12 @@ func checksum(disk []byte) uint64{
 
 func move(disk []byte){
 
-	moveFrom := getRightMostBlock(disk)
 	for i:=0; i<=len(disk)-1; i++{
-		if (disk[i] == '.') && (disk[moveFrom] != '.') {
+		moveFrom := getRightMostBlock(disk)
+		if (rune(disk[i]) == '.') && (moveFrom != -1) {
 			disk[i] = disk[moveFrom]
-			disk[moveFrom] = '.'
-			moveFrom = getRightMostBlock(disk)
+			disk[moveFrom] = byte('.')
+			//fmt.Println(string(disk))
 			if hasFinishMoving(disk) {return}
 		}
 	}
@@ -49,7 +50,7 @@ func move(disk []byte){
 
 func getRightMostBlock(disk []byte) int{
 	for i:=len(disk)-1; i>=0; i--{
-		if(disk[i] >= '0') && (disk[i] <= '9'){
+		if(rune(disk[i]) >= '0') && (rune(disk[i]) <= '9'){
 			return i
 		}
 	}
@@ -60,10 +61,10 @@ func hasFinishMoving(disk []byte) bool{
 
 	tolerate := true
 	for i:=0; i<=len(disk)-1; i++{
-		if disk[i] == '.' {
+		if rune(disk[i]) == '.' {
 			tolerate = false
 		}
-		if((!tolerate) && ((disk[i] >= '0') && (disk[i] <= '9'))){
+		if((!tolerate) && ((rune(disk[i]) >= '0') && (rune(disk[i]) <= '9'))){
 			return false
 		}
 	}
@@ -91,5 +92,16 @@ func convertToDiskLayout(blocks []byte) []byte{
 
 func readFile() []byte{
 	dat, _ := os.ReadFile("input")
-	return dat
+	dd := make([]byte, 0)
+	for i:=0; i<=len(dat)-1; i++{
+		if((rune(dat[i]) >= '0') && (rune(dat[i]) <= '9')) || (rune(dat[i]) == '.'){
+			dd = append(dd, dat[i])
+		}
+	}
+	//ss := (strings.Split(string(dd), "\n"))
+	/*lines := (strings.Split(string(dat), "\n"))
+	for _, str := range lines {
+		dd = append(dd, []byte(str)...)
+	}*/
+	return dd
 }
